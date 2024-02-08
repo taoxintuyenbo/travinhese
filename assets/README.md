@@ -1,4 +1,4 @@
-![image](https://github.com/taoxintuyenbo/travinhese/assets/145319703/5a25ea7e-d5a4-4473-bb73-56db76bc3200)![image](https://github.com/taoxintuyenbo/travinhese/assets/145319703/4fcb3ddc-8134-4518-9f45-40eeda8835ef)# **Objective**
+# **Objective**
 
 This project is about turning raw data into useful info. We're figuring out how long people watch different types of TV shows, which shows are the most popular, and what customers like to watch. Based on this, we can suggest ads that match their interests. We're also looking at how often customers watch TV to offer them discounts on shows they enjoy.
 
@@ -22,7 +22,7 @@ root
 |-- _type: string (nullable = true)
 ```
 
-![log_data](https://github.com/taoxintuyenbo/travinhese/blob/main/assets/logdata.png?raw=true)
+<img src="https://github.com/taoxintuyenbo/travinhese/blob/main/assets/logdata.png?raw=true" alt="Alt text" width="500" height="500">
 
 ## **Processing data**
 
