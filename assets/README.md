@@ -1,4 +1,4 @@
-# **Objective**
+![image](https://github.com/taoxintuyenbo/travinhese/assets/145319703/5a25ea7e-d5a4-4473-bb73-56db76bc3200)![image](https://github.com/taoxintuyenbo/travinhese/assets/145319703/4fcb3ddc-8134-4518-9f45-40eeda8835ef)# **Objective**
 
 This project is about turning raw data into useful info. We're figuring out how long people watch different types of TV shows, which shows are the most popular, and what customers like to watch. Based on this, we can suggest ads that match their interests. We're also looking at how often customers watch TV to offer them discounts on shows they enjoy.
 
@@ -22,7 +22,7 @@ root
 |-- _type: string (nullable = true)
 ```
 
-![log_data](logdata.png)
+![log_data](https://github.com/taoxintuyenbo/travinhese/blob/main/assets/logdata.png?raw=true)
 
 ## **Processing data**
 
@@ -30,7 +30,7 @@ root
 - Eliminate records with invalid `Contract`, pivot the `Type` category by grouping them under `Contract`, and calculate the total duration.
 - Generate a list of date ranges for specific time periods provided by the user via `convert_to_datevalue()` and `date_range` functions for the available files:
 
-<img src="file.png" alt="Alt text" width="700" height="200">
+<img src="https://github.com/taoxintuyenbo/travinhese/blob/main/assets/file.png?raw=true" alt="Alt text" width="700" height="200">
 
 - Determine the activity level based on the `number_of_days` ETL process; if it's higher than half of `number_of_day`, classify it as `high`; otherwise, label it as `low`.
 - Identify the `most-watched` category by selecting the highest value among the columns `TVDuration, RelaxDuration, MovieDuration, ChildDuration` and `SportDuration`.
@@ -53,6 +53,6 @@ root
  |-- Taste: string (nullable = false)
 ```
 
-![clean_data](cleandata.png)
+![clean_data](https://github.com/taoxintuyenbo/travinhese/blob/main/assets/cleandata.png?raw=true)
 
 ## **Visualizing Data with Grafana**
