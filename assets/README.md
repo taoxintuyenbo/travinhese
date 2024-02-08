@@ -2,7 +2,7 @@
 
 This project is about turning raw data into useful info. We're figuring out how long people watch different types of TV shows, which shows are the most popular, and what customers like to watch. Based on this, we can suggest ads that match their interests. We're also looking at how often customers watch TV to offer them discounts on shows they enjoy.
 
-- Tech stacks: Pyspark, Python, MySQL, Grafana.
+- Tech stacks: Pyspark, Python, PostgreSQL, Grafana.
 
 ## **Raw data**
 
