@@ -57,4 +57,5 @@ root
 
 ## **Visualizing Data with Grafana**
 
-![visualize_grafana](https://github.com/taoxintuyenbo/travinhese/blob/main/assets/cleandata.png?raw=true)
+![visualize_grafana](https://github.com/taoxintuyenbo/travinhese/blob/main/assets/visualizegrafana.png?raw=true)
+
