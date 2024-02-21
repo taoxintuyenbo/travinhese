@@ -30,7 +30,7 @@ root
 - Eliminate records with invalid `Contract`, pivot the `Type` category by grouping them under `Contract`, and calculate the total duration.
 - Generate a list of date ranges for specific time periods provided by the user via `convert_to_datevalue()` and `date_range` functions for the available files:
 
-![clean_data](https://github.com/taoxintuyenbo/travinhese/blob/main/assets/file.png?raw=true)
+![clean_data](https://github.com/taoxintuyenbo/travinhese/blob/main/assets/file.png?raw=true){:width="700" height="200"}
 
 - Determine the activity level based on the `number_of_days` ETL process; if it's higher than half of `number_of_day`, classify it as `high`; otherwise, label it as `low`.
 - Identify the `most-watched` category by selecting the highest value among the columns `TVDuration, RelaxDuration, MovieDuration, ChildDuration` and `SportDuration`.
