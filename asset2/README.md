@@ -31,10 +31,7 @@ root
 - Create a function that takes start and end dates as input parameters and generates a date range between those dates. Use this date range to read Parquet files for each date within the range. Select only the columns `user_id `and `keyword`, and filter out any rows where `user_id` is null.
 - Utilize a ranking window function to rank the searches for each user based on their frequency. Select the `keyword` with a `rank of 1` for each user, indicating their top search.
 - Analyze the `top 20` popular searches in both `June` and `July` to identify common patterns or themes. Based on these patterns, define `categories` for the `keywords`. Then, create a function to categorize each keyword into one of these specified categories.
-```html
-<div style="display: flex; flex-direction: row; font-family: monospace;">
-    <div style="flex: 1;">
-        <pre>
+```sh
 Top search June
 +--------------------------------------------+-----+
 |keyword                                     |count|
@@ -60,10 +57,9 @@ Top search June
 |cảnh đẹp ngày vui biết bao giờ              |988  |
 |yêu tinh                                    |987  |
 +--------------------------------------------+-----+
-        </pre>
-    </div>
-    <div style="flex: 1;">
-        <pre>
+```
+
+```sh
 Top search July
 +--------------------------------------------+-----+
 |keyword                                     |count|
@@ -89,10 +85,7 @@ Top search July
 |minh châu rực rỡ                            |927  |
 |yêu nhầm chị dâu                            |924  |
 +--------------------------------------------+-----+
-        </pre>
-    </div>
-</div>
-
+```
 - Merge the data from `June` and `July` to analyze `customer taste` and `trending type`. Compare the most searched keyword for each user in June and July. If there's a difference, identify it and extract the previous keyword as the `previous` column. If there's no change, keep the category `unchanged`. If there's a change, `replace the category with the most searched keyword from June`.
 
 By following these steps, I effectively processed the data from Parquet files, analyzed search patterns, and identified any changes or trends in customer behavior between June and July.
