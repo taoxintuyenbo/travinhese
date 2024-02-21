@@ -33,9 +33,16 @@ root
 - Analyze the `top 20` popular searches in both `June` and `July` to identify common patterns or themes. Based on these patterns, define `categories` for the `keywords`. Then, create a function to categorize each keyword into one of these specified categories.
 
 <div style="display: flex; flex-direction: row;">
-    <i>Top seach June<img src="https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/topsearch_june.png?raw=true" alt="Image 1" style="width: 100%;"></i>
-    <i>Top search July<img src="https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/topsearch_july.png?raw=true" alt="Image 2" style="width: 100%;"></i>
+    <div>
+        <i>Top search June</i>
+        <img src="https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/topsearch_june.png?raw=true" alt="Image 1" style="width: 100%;">
+    </div>
+    <div>
+        <i>Top search July</i>
+        <img src="https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/topsearch_july.png?raw=true" alt="Image 2" style="width: 100%;">
+    </div>
 </div>
+
 
 - Merge the data from `June` and `July` to analyze `customer taste` and `trending type`. Compare the most searched keyword for each user in June and July. If there's a difference, identify it and extract the previous keyword as the `previous` column. If there's no change, keep the category `unchanged`. If there's a change, `replace the category with the most searched keyword from June`.
 
