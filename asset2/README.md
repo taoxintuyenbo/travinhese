@@ -108,4 +108,4 @@ root
 
 ## **Visualizing Data with Google Studio**
 
-![visualize_grafana](https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/chart.png?raw=true)
+![visualize_googlestudio](https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/cleandata_chart.png?raw=true)
