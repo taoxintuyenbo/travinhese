@@ -101,8 +101,7 @@ root
  |-- category_june: string (nullable = true)
  |-- most_search_july: string (nullable = true)
  |-- category_july: string (nullable = true)
- |-- Trending_Type: string (nullable = false)
- |-- Previous: string (nullable = true)
+ |-- Customer_taste: string (nullable = false)
 ```
 
 ![clean_data](https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/clean_data.png?raw=true)
