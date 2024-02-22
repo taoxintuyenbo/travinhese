@@ -105,7 +105,7 @@ root
  |-- Previous: string (nullable = true)
 ```
 
-![clean_data](https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/cleandata.png?raw=true)
+![clean_data](https://github.com/taoxintuyenbo/travinhese/blob/main/asset2/clean_data.png?raw=true)
 
 ## **Visualizing Data with Google Studio**
 
